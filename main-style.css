@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+.bg-lightdark{
+	background-color: #4F4F4F
+}
+.font-nho{font-size:0.8rem}
+
+footer p.menu a{display:block; color: #ddd; text-decoration: none; padding:7px}
+
+footer p.menu a:hover{color:rgba(253,183,44,1.00)}
+
+.carousel-caption
+{width: 30%; top: 25%; text-align:left}
+
+@media (max-width: 992px){
+	.carousel-caption
+{
+	width: 70%; top: 25%; text-align:left
+}
+}
+#vung1{
+	position: relative;
+}
+
+.why {
+	width: 100%;
+	position:absolute;
+	top: 0;
+	left:0;
+	z-idex:999;	
+}
+.why .container{background-color: #F0F1F7;}
+
+@media(max-width: 1200px)
+{
+	.why{position:static}
+}
+
+.navbar .navbar-item{
+	padding: 10px 25px;
+}
+
+
+
+#body1 .p1{
+	background-color: #F0F1F7;
+}
+
+#body1 .setupbg{
+	background-color: #222222;
+}
+#body2 .card{
+	background-size: cover;
+}
+
+#body3 .setupbg{
+	background-color: #F0F1F7;
+}
+
+.bgimg{
+	background-image: url("../image/IMAGE12.png");
+	background-size: cover;
+}
+
+section#testimonial .card{
+	position:relative;
+}
+section#testimonial.card:after{
+	content:"";
+	position:absolute;
+	width: 30px; height: 30px; background: red;
+	left: 10%; bottom: -5px;
+	transform: rotate(45deg);
+	transition: all 3s;
+}
+
+.title-page .caption{
+	position:absolute;
+	width: 100%;
+	bottom: 20%;
+}
+
+#body1 .width{
+	width: 40%;
+}
+
+section#ab{
+	margon: 80px 0;
+	background-image: url("../image/Rectangle 38.png");
+	background-repeat: repeat-y;
+	padding: 50px 0;
+}
+#map .setuppy{
+	padding: 67px 0;;
+}
+
+.box1{
+	border: 1px solid black;
+}
+
+.box2{
+	border: 1px solid black;
+	background-color: #F0F1F7;
+}
+
+
+footer .setup{
+	position: absolute;
+	left: 25%;
+	top: 0;
+	width: 50%;
+	background-image: url("../image/Rectangle 38.png")
+}
+
+#setupme{
+	position: relative;
+	background-color:  RGBA(33, 37, 41, var(--bs-bg-opacity, 1));
+	height: 500px;
+}
+
+
+
+footer .setupcon{
+	position: absolute;
+	background-color: #FFB800;
+	z-index: 1;
+	left: 200px;
+	top: -60px;
+}
